@@ -1,0 +1,15 @@
+Install VS-Code
+
+Install VS-Code Extentions : [Auto Rename, Babel JavaScript, Image Preview, ES7+ React/Redux/React-Native snippets, Material Icon, Noctis, Prettier, :emojisense, Live Server]
+
+Install Git and Configure Email and Username
+
+Sign-In and Sign-Up Github
+
+Install Node Js
+
+Sign-Mongodb and Create Cluster
+
+Sign-In and Sign-Up Firebase
+
+File and Folder Setup in PC
