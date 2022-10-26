@@ -1,0 +1,177 @@
+/* MEASURING UNITS IN CSS */
+/* px , rem, vh, vw, em */
+/* px = pexels = (16px = 1rem) */
+/* rem  = (1rem = 16px)*/
+/* vh = viewport height = (% height of the screen) */
+/* vw = viewport width = (% width of the screen) */
+/* em = 16px (mostly not used) */
+
+/* .box { */
+/* height: 100px; */
+/* width: 300px; */
+
+/* height: 7rem; */
+/* width: 20rem; */
+
+/* height: 50vh;
+  width: 50vw;
+} */
+
+/* BORDERS IN CSS */
+/* .box { */
+/* Height, Type, Color */
+/* border: 10px solid red;
+  border: 100px double red;
+  border: 100px inset red;
+  border: 100px outset red;
+  border: 100px dotted red;
+  border: 50px ridge red;
+  background-color: var(--pankaj-color);
+} */
+
+/* MAX AND MIN */
+/* .box {
+  max-height: 100vh;
+  max-width: 70vw;
+
+  min-width: 20vw;
+  min-height: 20vh;
+} */
+
+/* MARGIN AND PADDING */
+/* Margin = Outer space */
+/* Padding = Inner space */
+
+/* .container { */
+/* border: 10px solid violet; */
+/* Top Right Bottom Left  */
+/* padding: 2rem; */
+/* padding-top: var(--approx-padding);
+  padding-right: var(--approx-padding);
+  padding-bottom: 5rem;
+  padding-left: 10rem; */
+
+/* margin: 100px; */
+/* margin-left: var(--approx-padding);
+  margin-bottom: 5rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
+  background-color: var(--pankaj-color); */
+/* } */
+
+/* .container p {
+  text-align: justify;
+  color: var(--white-color);
+} */
+
+/* Variable in CSS */
+:root {
+  --pankaj-color: #669cf3;
+  --white-color: #fff;
+  --approx-padding: 4rem;
+}
+
+/* Transform in CSS */
+/* .myBox {
+  border: 10px solid green;
+  height: 100px;
+  width: 100px;
+  transition: all 0.3s;
+} */
+
+/* .myBox:hover { */
+/* border-radius: 50%; */
+/* transform: rotate(360deg) scale(0.5);
+  background-color: crimson;
+  cursor: pointer;
+} */
+
+/* Positions in CSS */
+/* 1. Absolute */
+/* 2. Relative */
+/* 3. Fixed */
+/* 4. Sticky */
+
+/* .firstSection {
+  border: 10px solid crimson;
+}
+
+.MyImage {
+  position: relative;
+  left: 200px;
+  top: -100px;
+} */
+
+/* .MyImage {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  bottom: 20px;
+  right: 100px;
+} */
+
+/* .someText {
+  background-color: red;
+  position: fixed;
+  bottom: 200px;
+  left: 0;
+} */
+
+/* RESPONSIVENESS IN CSS */
+/* Big Screens : More than 1401px  */
+/* Normal Size Laptops : 1201px - 1400px */
+/* Small Size Laptops : 993px - 1200px */
+/* Tablet Size : 769px - 992px */
+/* Small Size Tablet : 576px - 768px */
+/* Mobile Size : 381px - 576px */
+/* Small Size Mobile Size : 320px - 380px */
+
+.home {
+  background-color: var(--pankaj-color);
+  width: 100vh;
+  height: 300px;
+}
+
+@media (max-width: 1400px) {
+  .home {
+    background-color: crimson;
+  }
+}
+
+@media (max-width: 1200px) {
+  .home {
+    background-color: violet;
+  }
+}
+
+@media (max-width: 992px) {
+  .home {
+    background-color: greenyellow;
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    background-color: pink;
+  }
+}
+
+@media (max-width: 576px) {
+  .home {
+    background-color: blue;
+  }
+}
+
+@media (max-width: 380px) {
+  .home {
+    background-color: black;
+    height: 100vh;
+  }
+}
+
+/* HOMEWORK
+    1. Make a box having height and width of 300px and 300px containing a image of width and height of 200px and 200px and that box must have a unique looking border i.e, ridge and the border width must be 10px.
+    2. Declare all the colors that you would use in your task using variables.
+    3. Make a card having an image whose style or looks chages in each and every devices.
+    4. Add a whatsaap icon to your website and try to paste that in the bottom right corner of your webpage.
+*/
