@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.firstSection {
+  height: 200vh;
+
+  border: 10px solid red;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  justify-content: center;
+  justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: space-evenly;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+  align-items: flex-end;
+  align-items: flex-start;
+  align-items: space-evenly;
+  align-items: space-between;
+
+  flex-direction: column;
+  flex-direction: column-reverse;
+  flex-direction: row;
+  flex-direction: row-reverse;
+}
+
+.firstSection .box {
+  border: 10px solid green;
+}
+
+.firstSection .box img {
+  height: 200px;
+  width: 300px;
+}
+
+.thirdSection {
+  border: 10px solid red;
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  grid-template-rows: 2fr 1fr 1fr;
+  gap: 2rem;
+
+  justify-items: center;
+  justify-items: end;
+  justify-items: start;
+  justify-items: stretch;
+
+  align-items: start;
+  align-items: end;
+  align-items: stretch;
+}
+
+.Tbox {
+  border: 10px solid green;
+}
+
+.Tbox img {
+  height: 200px;
+  width: 300px;
+}
+
+/* HOMEWORK
+1. Make a form with responsiveness having different types of input and the form must look so much attractive(add some gradients in that). https://colorlib.com/wp-content/uploads/sites/2/contact-form-04.jpg
+
+2. Make a Image gallery using display flex and add some box shadow inside that and also make that responsive.
+https://ps.w.org/photo-gallery/assets/screenshot-2.png?rev=2039606
+
+3. Make a table using grid. https://colorlib.com/wp/wp-content/uploads/sites/2/table-03.jpg
+*/
