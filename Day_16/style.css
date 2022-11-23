@@ -1,0 +1,44 @@
+.box1 {
+  background: aqua;
+  height: 200px;
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.box2 {
+  background: darkgoldenrod;
+  height: 200px;
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  border: none;
+  background: crimson;
+  color: white;
+  padding: 0.7rem 2rem;
+  cursor: pointer;
+}
+
+.btn2 {
+  border: none;
+  background: gold;
+  color: white;
+  padding: 0.7rem 2rem;
+  cursor: pointer;
+}
+
+.active1 {
+  background: red;
+}
+
+.active2 {
+  background: green;
+}
+
+.box3 {
+  background: crimson;
+  height: 200px;
+  width: 350px;
+  margin-bottom: 20px;
+}
