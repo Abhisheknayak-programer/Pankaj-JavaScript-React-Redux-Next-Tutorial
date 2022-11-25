@@ -1,0 +1,32 @@
+.divStyle {
+  background: crimson;
+  color: white;
+  font-size: 20px;
+  border-radius: 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  padding: 0.7rem 1.5rem;
+  font-size: 20px;
+  color: yellow;
+  background: black;
+  margin-top: 20px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.section_2 {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.section_2 img {
+  height: 350px;
+  width: 600px;
+}
