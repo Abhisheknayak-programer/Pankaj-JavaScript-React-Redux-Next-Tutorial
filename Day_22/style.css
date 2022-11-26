@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+}
+
+.btn {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 100px;
+}
+
+.btn1 {
+  background: goldenrod;
+}
