@@ -17,7 +17,6 @@ class phone1{
     volume;
     voltage;
     temprature;
-    homeBtn();
     volumeBtn();
     verifyPassword();
     verifyTemp();
@@ -34,3 +33,57 @@ class phone2{
     volumeBtn();
     useCamera();
 } // NECESSARY
+
+
+// 2. ENCAPSULATION
+// Keeping properties and methods private inside the class, so they are not accessible from outside the class.
+
+class phone3{
+    _pincode;
+    _location;
+    _imeiNumber;
+    _GetImEINumber();
+    _GetPincode();
+    _GetLocationOfTheUser();
+}
+
+// 3. POLYMORPHISM
+// Poly means "many" and Morphism means "forms". One thing having multiple forms is called Polymorphism.
+
+function add(a,b){
+    console.log(a+b);
+}
+
+function add(a,b,c){
+    console.log(a+b+c);
+}
+
+add(8,9);
+add(8,9,1);
+
+// 4. INHERITANCE
+// Making all the properties and methods of a certain class available to its child class, forming a parent child relationships among classes. This allows us to reuse common logic and to model real world relationship.
+class parent{
+    name = "Abhishek";
+    
+    GiveName(){
+        console.log(this.name);
+    }
+
+    GiveName();
+    // dance(); ERROR
+}
+
+
+class parent extends child{
+    constructor(){
+        super(name);
+    }
+
+    dance(){
+        console.log("I am dancing");
+    }
+
+    GiveName();
+    dance();
+}
