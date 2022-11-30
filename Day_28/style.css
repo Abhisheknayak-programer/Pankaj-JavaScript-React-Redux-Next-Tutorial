@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.section__1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.userDataSubmit {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+}
+
+.userInput {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 20px;
+}
+
+.btn {
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btn1 {
+  background: crimson;
+  color: #fff;
+}
+
+.OutputBox {
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.OutputBox h1 {
+  font-size: 40px;
+  font-weight: 200;
+}
