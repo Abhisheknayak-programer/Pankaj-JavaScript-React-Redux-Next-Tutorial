@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.section1 {
+  border: 10px solid red;
+  height: 100vh;
+}
+
+.section2 {
+  border: 10px solid green;
+  height: 100vh;
+}
