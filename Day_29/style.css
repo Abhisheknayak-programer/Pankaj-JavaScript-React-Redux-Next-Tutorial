@@ -1,0 +1,69 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.DisplayBox {
+  padding: 40px;
+  margin: 100px;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  display: none;
+}
+
+.DisplayBoxHeading {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.DisplayBoxParagraph {
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.buttonsBox {
+  display: flex;
+  padding: 40px;
+  justify-content: space-evenly;
+}
+
+.btn {
+  border: none;
+  font-size: 20px;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.btn1 {
+  background: black;
+  color: yellow;
+}
+
+.btn2 {
+  background: crimson;
+  color: white;
+}
+
+.btn3 {
+  background: blueviolet;
+  color: white;
+}
+
+.btn4 {
+  background: lightblue;
+  color: black;
+}
+
+.btnClose {
+  color: white;
+  background: black;
+}
